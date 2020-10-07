@@ -17,6 +17,12 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 18
+  if (votingAge > 18){
+    return true;
+
+  }
+
 
 
 
@@ -46,7 +52,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+let prince = 1999
+prince num = 1999;
 
 
 /*
@@ -58,11 +65,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    return a * b
   }
 
-
+multiply(5 * 5)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -74,10 +81,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function calculateDogAge(age) {
+  var dogYears = 7*age;
+  console.log("Yourage = " + dogYears + " years old in dog years!");
 }
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -91,7 +98,7 @@ Use the hungryDog function and feeding requirements below to do the following:
   
   REMEMBER: This program should handle correctly adult AND puppy ages and weights
   
-  Feeding Requirements:
+  Feeding Requirements: 
 
   Adult Dogs 1 year and older 
      up to 5 lbs - 5% of their body weight
