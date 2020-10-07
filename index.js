@@ -19,7 +19,7 @@ Do the following:
 */
 const votingAge = 18
   if (votingAge > 18){
-    return true;
+    console.log(true);
 
   }
 
@@ -53,7 +53,7 @@ Do the following:
 */
 
 let prince = 1999
-prince num = 1999;
+
 
 
 /*
@@ -65,11 +65,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(a,b){
-    return a * b
+function multiply(a, b){
+    return a * b;
   }
 
-multiply(5 * 5)
+multiply(5,5)
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -81,9 +81,9 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function calculateDogAge(age) {
-  var dogYears = 7*age;
-  console.log("Yourage = " + dogYears + " years old in dog years!");
+function dogYears(age) {
+return age*7;
+
 }
 
 
